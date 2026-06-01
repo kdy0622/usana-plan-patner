@@ -70,7 +70,7 @@ export default function App() {
   const tabItems = [
     { id: "intro", label: "소개 & 가치", icon: Sparkles, color: "text-amber-500" },
     { id: "steps", label: "보상플랜설명", icon: Milestone, color: "text-emerald-500" },
-    { id: "simulator", label: "점수 시뮬레이션", icon: Calculator, color: "text-teal-500" },
+    { id: "simulator", label: "주급 시뮬레이션", icon: Calculator, color: "text-teal-500" },
     { id: "vs", label: "1BC vs 3bc", icon: Scale, color: "text-blue-500" },
     { id: "glossary", label: "보상 용어사전", icon: BookOpen, color: "text-indigo-500" },
     { id: "faq", label: "자주 묻는 질문", icon: HelpCircle, color: "text-purple-500" },

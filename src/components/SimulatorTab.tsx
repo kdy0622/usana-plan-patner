@@ -79,7 +79,7 @@ export default function SimulatorTab({ onShowToast }: SimulatorTabProps) {
         <div className="flex items-center space-x-2">
           <SlidersHorizontal className="w-6 h-6 text-teal-600" />
           <h2 className="text-2xl sm:text-3xl font-black text-slate-900 tracking-tight">
-            수당점수 시뮬레이터
+            주급 시뮬레이션
           </h2>
         </div>
 
@@ -465,10 +465,10 @@ export default function SimulatorTab({ onShowToast }: SimulatorTabProps) {
           </div>
           <div>
             <h3 className="font-extrabold text-sm sm:text-base text-slate-905 leading-snug">
-              장바구니 간편계산기 & 유사나 전제품 안내서
+              장바구니 간편계산기 & 유사나 제품보기
             </h3>
             <p className="text-slate-500 text-[11px] sm:text-xs">
-              실제 웹서비스로 연결되는 모바일 전용 간편 계산기 및 공식 제품 카탈로그 페이지입니다.
+              실제 웹서비스로 연결되는 모바일 전용 간편 계산기 및 유사나 제품의 특징과 성분 효능 등을 알아볼 수 있는 페이지입니다.(유사나Q)
             </p>
           </div>
         </div>
