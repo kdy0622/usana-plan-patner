@@ -1,0 +1,8 @@
+{
+  "name": "유사나 보상플랜 웹앱개발(파트너용)",
+  "description": "공정하고 합리적인 유사나(USANA)의 비즈니스 및 보상플랜을 완벽하게 이해하고 분석하는 오프라인 비즈니스용 마스터 가이드 툴입니다.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
