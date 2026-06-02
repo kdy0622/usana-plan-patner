@@ -180,7 +180,7 @@ export default function IntroTab({ onStartTour, onGoSimulator, onSwitchTab }: In
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
         transition={{ duration: 0.5, delay: 0.2 }}
-        className="grid grid-cols-1 md:grid-cols-2 gap-4"
+        className="grid grid-cols-1 md:grid-cols-3 gap-4"
       >
         <a
           href="https://www.usana.com"
@@ -215,6 +215,24 @@ export default function IntroTab({ onStartTour, onGoSimulator, onSwitchTab }: In
           </div>
           <span className="text-sky-600 font-extrabold text-[10px] sm:text-xs mt-2.5 inline-block group-hover:translate-x-0.5 transition-transform">
             공식 인터뷰 시청하기 →
+          </span>
+        </a>
+
+        <a
+          href="https://youtu.be/JNvWRdPQzXc?si=hxTCcStV2tgim5g6"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="group bg-white hover:bg-amber-50/10 border border-slate-200 hover:border-amber-300 p-4 rounded-2xl shadow-sm text-center transition-all flex flex-col justify-between cursor-pointer"
+        >
+          <div>
+            <span className="text-3xl block mb-1 group-hover:scale-105 transition-transform">🎬</span>
+            <h4 className="text-xs sm:text-sm font-black text-slate-900">보상플랜 간단 영상</h4>
+            <p className="text-slate-500 text-[10px] sm:text-xs mt-1 leading-normal">
+              쉽고 빠르게 흐름과 강점을 파악할 수 있는 핵심 보상플랜 가이드 설명 영상입니다.
+            </p>
+          </div>
+          <span className="text-amber-600 font-extrabold text-[10px] sm:text-xs mt-2.5 inline-block group-hover:translate-x-0.5 transition-transform">
+            가이드 영상 시청하기 →
           </span>
         </a>
       </motion.div>
