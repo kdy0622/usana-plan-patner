@@ -65,12 +65,12 @@ export default function IntroTab({ onStartTour, onGoSimulator, onSwitchTab }: In
             <Users className="w-5 h-5 text-teal-600" />
           </div>
           <h2 className="text-xl sm:text-2xl font-black text-slate-900 tracking-tight">
-            공공 연결과 상생의 무한 수당 원리
+            가치 있는 정보 연결과 상생의 무한 수당 원리
           </h2>
         </div>
         
         <p className="text-slate-600 text-xs sm:text-sm leading-relaxed">
-          맛집을 알리듯 회복된 가치를 주변에 심플하게 연결해 보세요. 유사나는 전 세계 <strong className="text-slate-800">100% 무제한 중복 누적</strong>으로 하부 실적 점수가 전부 상위로 올라가는 진정한 상생 공유 시스템입니다.
+          맛집을 알리듯 가치 있는 소비에 대한 정보를 주변에 심플하게 연결해 보세요. 유사나는 전 세계 <strong className="text-slate-800">100% 무제한 중복 누적</strong>으로 하부 실적 점수가 모두 공유되는 진정한 상생 공유 시스템입니다.
         </p>
 
         {/* 4개 라인 설명 */}
@@ -84,7 +84,7 @@ export default function IntroTab({ onStartTour, onGoSimulator, onSwitchTab }: In
           <div className="bg-white p-3 sm:p-4 rounded-xl border border-teal-100 text-xs sm:text-sm flex items-start space-x-2">
             <CheckCircle className="w-4 h-4 text-teal-600 shrink-0 mt-0.5" />
             <p className="text-teal-950 font-extrabold text-[11px] sm:text-xs">
-              각 매장이 완성(맥스아웃)되면 추가 매장(추가 BC)이 무제한 제공되어, 수당 상한선 장벽 없이 수억 대의 자산 소득으로 무한 확장됩니다.
+              각 가게(BC)가 완성(맥스아웃)되면 추가 매장(추가 BC)이 무제한 제공되어, 수당 상한선 장벽 없이 수억 대의 자산 소득으로 무한 확장됩니다.
             </p>
           </div>
           
